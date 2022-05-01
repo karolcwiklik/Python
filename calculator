@@ -1,0 +1,18 @@
+print("Kalkulator w Pythonie. ")
+
+a = int(input("Podaj pierwszą liczbę: "))
+b = int(input("Podaj drugą liczbę: "))
+
+wpisz = input("Wybierz działanie: +, -, *, :",)
+
+if (wpisz == '+'):
+    print(a + b)
+elif (wpisz == '-'):
+    print(a - b)
+elif (wpisz == '*'):
+    print(a * b)
+elif (wpisz == '/'):
+    if (b == 0):
+        print("nie dzieli się przez zero")
+    else:
+        print(a / b)
