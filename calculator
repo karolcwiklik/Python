@@ -1,18 +1,19 @@
-print("Kalkulator w Pythonie. ")
+print("Program wykonuje działania na dwoch liczbach")
 
-a = int(input("Podaj pierwszą liczbę: "))
-b = int(input("Podaj drugą liczbę: "))
+while
+a = int(input("Podaj pierwsza liczbe: "))
+print("Wybierz jedno z działan: ")
+c = str(input("+, -, *, / "))
+b = int(input("Podaj druga liczbe: "))
 
-wpisz = input("Wybierz działanie: +, -, *, :",)
-
-if (wpisz == '+'):
-    print(a + b)
-elif (wpisz == '-'):
-    print(a - b)
-elif (wpisz == '*'):
-    print(a * b)
-elif (wpisz == '/'):
-    if (b == 0):
-        print("nie dzieli się przez zero")
+if c == '+':
+    print(f"Wynik to: {a + b}")
+if c == '-':
+    print(f"Wynik to: {a - b}")
+if c == '*':
+    print(f"Wynik to: {a * b}")
+if c == '/':
+    if b == 0:
+        print("Error: Nie dzieli się przez zero.")
     else:
-        print(a / b)
+        print(f"Wynik to: {a / b}")
