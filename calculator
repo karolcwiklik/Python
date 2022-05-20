@@ -1,6 +1,5 @@
 print("Program wykonuje działania na dwoch liczbach")
 
-while
 a = int(input("Podaj pierwsza liczbe: "))
 print("Wybierz jedno z działan: ")
 c = str(input("+, -, *, / "))
